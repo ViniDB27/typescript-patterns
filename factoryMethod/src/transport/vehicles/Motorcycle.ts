@@ -1,4 +1,4 @@
-import IVehicle from "./intefaces/IVehicle";
+import IVehicle from "./interfaces/IVehicle";
 
 export default class Motorcycle implements IVehicle {
     startRoute(): void {

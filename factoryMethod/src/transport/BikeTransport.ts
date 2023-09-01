@@ -1,6 +1,6 @@
 import Transport from "./Transport";
 import Bike from "./vehicles/Bike";
-import IVehicle from "./vehicles/intefaces/IVehicle";
+import IVehicle from "./vehicles/interfaces/IVehicle";
 
 export default class BikeTransport extends Transport {
 
