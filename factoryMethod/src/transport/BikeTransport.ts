@@ -1,10 +1,10 @@
 import Transport from "./Transport";
-import Car from "./vehicles/Car";
+import Bike from "./vehicles/Bike";
 import IVehicle from "./vehicles/intefaces/IVehicle";
 
-export default class CarTransport extends Transport {
+export default class BikeTransport extends Transport {
 
     protected createTransporte(): IVehicle {
-        return new Car();
+        return new Bike();
     };
 }

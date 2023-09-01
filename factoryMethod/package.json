@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts --uber",
-    "devMoto": "ts-node-dev --respawn --transpile-only ./src/index.ts --log"
+    "devMoto": "ts-node-dev --respawn --transpile-only ./src/index.ts --log",
+    "devBike": "ts-node-dev --respawn --transpile-only ./src/index.ts --bike"
   },
   "keywords": [],
   "author": "",
