@@ -14,3 +14,8 @@ director.constructTruck();
 const truck: Vehicle = builder.getVehicle();
 
 console.log(truck);
+
+director.constructMotorcylce();
+const motorcycle: Vehicle = builder.getVehicle();
+
+console.log(motorcycle);
